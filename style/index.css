@@ -78,7 +78,29 @@ font-weight: 400;
     height: 400px;
     background-image: url(../resources/welcome.png);
     background-size: 800px, 400px;
+    background-repeat: no-repeat;
     margin-top: 65px;
+    color: #2ce61b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#section-welcome h1{
+    width: 400px;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing:2px;
+    margin: 0 0 15px 65px;
+}
+#section-welcome small{
+    width: 500px;
+    margin-left: 65px;
+}
+#section-welcome p{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 25px 0 0 80px;
 }
 
 /* Event Section */
