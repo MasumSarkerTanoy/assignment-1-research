@@ -1,0 +1,39 @@
+/* Common style sheet area */
+*{
+    padding: 0;
+    margin: 0;
+}
+.common-margin{
+    margin: 0 65px 65px;
+}
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+.font-merriweather{
+    font-family: 'Merriweather', serif;
+}
+
+/* header section */
+#banner{
+    background-image: url(../resources/Banner\ Image.png);
+}
+/* Bonus Section */
+
+/* Welcome Section */
+#section-welcome{
+    background-image: url(../resources/welcome.png);
+}
+
+/* Event Section */
+#section-event{
+    background-color: rgba(255, 0, 0, 0.05);
+}
+/* Newsletter Section */
+#section-newsletter{
+    background: rgba(255, 0, 0, 0.05);
+}
+
+/* footer section */
+#footer{
+    background: #070211;
+}
