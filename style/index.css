@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
 }
+body{
+    margin: auto;
+    width:70vw; 
+    border: 1px solid black;
+}
 .common-margin{
     margin: 0 65px 65px;
 }
@@ -16,9 +21,34 @@
 /* header section */
 #banner{
     background-image: url(../resources/Banner\ Image.png);
+    background-size: 800px,500px;
+    background-repeat: no-repeat;
+    color: rgb(0, 255, 0);
+    margin-top: 20px;
+    padding: 150px 250px 65px;
+    border-radius: 5px;
+}
+#banner h3{
+text-align: center;
+font-weight: 400;
+}
+#banner h1{
+    width: 300px;
+    text-align: center;
+    /* font-size: 84.69px; */
+    font-weight: 900;
 }
 /* Bonus Section */
-
+#section-bonus{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+#section h1{
+    color: #F00;
+    text-align: center;
+    font-weight: 700;
+}
 /* Welcome Section */
 #section-welcome{
     background-image: url(../resources/welcome.png);
