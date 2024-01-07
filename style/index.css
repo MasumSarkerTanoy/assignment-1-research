@@ -9,7 +9,7 @@ body{
     border: 1px solid black;
 }
 .common-margin{
-    margin: 0 65px 65px;
+    margin: 0 auto 65px;
 }
 .font-inter{
     font-family: 'Inter', sans-serif;
@@ -20,23 +20,30 @@ body{
 
 /* header section */
 #banner{
+    height: 400px;
+    width: 800px;
     background-image: url(../resources/Banner\ Image.png);
-    background-size: 800px,500px;
+    background-size: 800px,400px;
     background-repeat: no-repeat;
     color: rgb(0, 255, 0);
     margin-top: 20px;
-    padding: 150px 250px 65px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#banner h3{
+#banner h2{
 text-align: center;
 font-weight: 400;
+
 }
 #banner h1{
-    width: 300px;
+    width: 500px;
+    padding-top: 15px;
     text-align: center;
-    /* font-size: 84.69px; */
     font-weight: 900;
+    font-size: 45px;
 }
 /* Bonus Section */
 #section-bonus{
@@ -44,14 +51,34 @@ font-weight: 400;
     margin: auto;
     text-align: center;
 }
-#section h1{
+#section-bonus h1{
     color: #F00;
+    font-size: 56px;
     text-align: center;
     font-weight: 700;
+    margin: 20px 0;
+}
+#section-bonus p{
+    color: #F00;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#section-bonus h2{
+    color: #070211;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+
 }
 /* Welcome Section */
 #section-welcome{
+    width: 800px;
+    height: 400px;
     background-image: url(../resources/welcome.png);
+    background-size: 800px, 400px;
+    margin-top: 65px;
 }
 
 /* Event Section */
