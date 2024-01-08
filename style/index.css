@@ -133,6 +133,52 @@ font-weight: 400;
     text-align: center;
     font-weight: 700;
 }
+/* Challenge section */
+#section-challenge{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 250px;
+}
+#new-offer{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#new-offer h3{
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#new-offer h1{
+    color: #070211;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#challenge-image-1{
+    border: 5px solid red;
+    border-radius: 125px;
+    padding: 15px;
+    margin: 0 40px 0 0;
+    
+}
+#offer-timeline{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#offer-timeline h1{
+    color: #F00;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+#offer-timeline img{
+    margin: auto auto 0 0;
+}
+
 /* Newsletter Section */
 #section-newsletter{
     background: rgba(255, 0, 0, 0.05);
