@@ -178,7 +178,46 @@ font-weight: 400;
 #offer-timeline img{
     margin: auto auto 0 0;
 }
+/* holliday plan */
+#section-holliday{
+    height: 800px;
+    width: 800px;
+    border: 2px solid red;
+}
+#holliday-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#holliday-text p{
+    color: #070211;
+    font-weight: 500;
+}
+#holliday-text h1{
+    color: #F00;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+#holliday-text small{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-weight: 500;
+}
+#holliday-image-no-comment{
 
+}
+#holliday-image-discount{
+
+}
+#holliday-image-unboxing{
+
+}
+#holliday-image-red-shade{
+    width: 100%;
+    height: 100px;
+    /* position: ; */
+}
 /* Newsletter Section */
 #section-newsletter{
     background: rgba(255, 0, 0, 0.05);
