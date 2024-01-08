@@ -203,7 +203,7 @@ font-weight: 400;
     font-weight: 500;
 }
 #holliday-image{
-    height: 4500px;
+    height: 450px;
     width: inherit;
     position: relative;
 }
@@ -237,7 +237,23 @@ font-weight: 400;
     top: 50px;
     z-index: 1;
 }
+/* main section */
+#section-main p{
+    color: #F00;
+    font-weight: 500;
+}
+#section-main h1{
+    color: #070211;
+    font-weight: 900;
+    margin: 10px 0;
 
+}
+#section-main-text{
+
+}
+#section-main-image{
+
+}
 /* Newsletter Section */
 #section-newsletter{
     background: rgba(255, 0, 0, 0.05);
