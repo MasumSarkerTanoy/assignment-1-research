@@ -259,7 +259,41 @@ font-weight: 400;
 /* Newsletter Section */
 #section-newsletter{
     background: rgba(255, 0, 0, 0.05);
+    width: 800px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#section-newsletter h1{
+    color: #070211;
+    font-weight: 900;
+    margin: 20px 0;
+}
+#section-newsletter small{
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+#input:hover{
+  border: 3px solid rgba(105, 161, 224, 0.377);
+  border-radius: 58px;
+}
+#input input{
+    padding: 15px 100px 15px 25px;
+    border-radius: 58px 0 0 58px;
+    border: none;
+}
+
+#input button{
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border-radius: 0px 58.813px 58.813px 0px;
+    border: none;
+}
+
 
 /* footer section */
 #footer{
