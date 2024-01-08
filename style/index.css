@@ -238,6 +238,9 @@ font-weight: 400;
     z-index: 1;
 }
 /* main section */
+#section-main{
+    width: 800px;
+}
 #section-main p{
     color: #F00;
     font-weight: 500;
@@ -246,13 +249,12 @@ font-weight: 400;
     color: #070211;
     font-weight: 900;
     margin: 10px 0;
-
 }
-#section-main-text{
-
+#main-image-container{
+    margin-top: 20px;
 }
-#section-main-image{
-
+.section-main-image:hover{
+    border: 2px solid red;
 }
 /* Newsletter Section */
 #section-newsletter{
