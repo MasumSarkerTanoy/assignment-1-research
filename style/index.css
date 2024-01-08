@@ -297,5 +297,32 @@ font-weight: 400;
 
 /* footer section */
 #footer{
+    height: 300px;
     background: #070211;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer div,hr{
+    width: 800px;
+}
+#contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+#online-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#social-link{
+    display: flex;
+    justify-content: center;
+}
+#copyright{
+    display: flex;
+    justify-content: space-between;
 }
