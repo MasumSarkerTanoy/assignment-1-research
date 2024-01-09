@@ -6,7 +6,12 @@
 body{
     margin: auto;
     width:70vw; 
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-left: 14vw;
+    border-right: 14vw;
+    border-right-color: black;
+    border-style: solid;
+    border-left-color:black ;
 }
 .common-margin{
     margin: 0 auto 65px;
