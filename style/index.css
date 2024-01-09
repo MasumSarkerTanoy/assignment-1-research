@@ -5,16 +5,14 @@
 }
 body{
     margin: auto;
-    width:70vw; 
-    /* border: 1px solid black; */
-    border-left: 14vw;
-    border-right: 14vw;
-    border-right-color: black;
+    width: 56rem;; 
+    border-right: 12rem;
+    border-left: 12rem;
+    border-color: black;
     border-style: solid;
-    border-left-color:black ;
 }
 .common-margin{
-    margin: 0 auto 65px;
+    margin: 0 auto 4rem;
 }
 .font-inter{
     font-family: 'Inter', sans-serif;
@@ -25,14 +23,14 @@ body{
 
 /* header section */
 #banner{
-    height: 400px;
-    width: 800px;
+    height:25rem;
+    width: 50rem;
     background-image: url(../resources/Banner\ Image.png);
-    background-size: 800px,400px;
+    background-size: 50rem,25rem;
     background-repeat: no-repeat;
     color: rgb(0, 255, 0);
-    margin-top: 20px;
-    border-radius: 5px;
+    margin-top: 1.25rem;
+    border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,75 +42,75 @@ font-weight: 400;
 
 }
 #banner h1{
-    width: 500px;
-    padding-top: 15px;
+    width: 31.25rem;
+    padding-top: 0.9rem;
     text-align: center;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 2.8rem;
 }
 /* Bonus Section */
 #section-bonus{
-    width: 500px;
+    width:31.25rem;
     margin: auto;
     text-align: center;
 }
 #section-bonus h1{
     color: #F00;
-    font-size: 56px;
+    font-size:3.5rem;
     text-align: center;
     font-weight: 700;
-    margin: 20px 0;
+    margin:1.25rem 0;
 }
 #section-bonus p{
     color: #F00;
     text-align: center;
-    font-size: 14px;
+    font-size:0.875rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom:0.625rem;
 }
 #section-bonus h2{
     color: #070211;
     text-align: center;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
 
 }
 /* Welcome Section */
 #section-welcome{
-    width: 800px;
-    height: 400px;
+    width: 50rem;
+    height: 25rem;
     background-image: url(../resources/welcome.png);
-    background-size: 800px, 400px;
+    background-size: 50rem, 25rem;
     background-repeat: no-repeat;
-    margin-top: 65px;
+    margin-top: 4rem;
     color: #2ce61b;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 #section-welcome h1{
-    width: 400px;
-    font-size: 45px;
+    width: 25rem;
+    font-size: 2.8rem;
     font-weight: 900;
     letter-spacing:2px;
-    margin: 0 0 15px 65px;
+    margin: 0 0 1rem 4rem;
 }
 #section-welcome small{
-    width: 500px;
-    margin-left: 65px;
+    width: 31.25rem;
+    margin-left: 4rem;
 }
 #section-welcome p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 25px 0 0 80px;
+    margin: 1.5rem 0 0 5rem;
 }
 
 /* Event Section */
 #section-event{
     background-color: rgba(255, 0, 0, 0.05);
-    width: 800px;
-    height: 250px;
+    width: 50rem;
+    height: 15.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,14 +121,14 @@ font-weight: 400;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 #schedual span{
     color: red;
 }
 #join-event{
-    margin-top: 20px;
-    padding: 10px 15px;
+    margin-top: 1.25rem;
+    padding: .6rem 1rem;
     color: #FFF;
     border: none;
     border-radius: 10px;
@@ -142,31 +140,31 @@ font-weight: 400;
 #section-challenge{
     display: flex;
     justify-content: space-between;
-    width: 800px;
-    height: 250px;
+    width: 50rem;
+    height: 15.6rem;
 }
 #new-offer{
-    width: 250px;
+    width: 15.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 #new-offer h3{
     color: #F00;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 #new-offer h1{
     color: #070211;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 #challenge-image-1{
     border: 5px solid red;
-    border-radius: 125px;
-    padding: 15px;
-    margin: 0 40px 0 0;
+    border-radius: 7.8rem;
+    padding: 1rem;
+    margin: 0 2.5rem 0 0;
     
 }
 #offer-timeline{
